@@ -1,0 +1,70 @@
+nav {
+    margin: 0 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: fit-content;
+    float: left;
+}
+
+.listenOn {
+    margin-top: 5%;
+    float: right;
+}
+
+.navbar{
+    margin-top: 5%;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .listenOn {
+        display: none;
+    }
+}
+
+#episodes {
+    height: 100%;
+    min-height: 100vh;
+    margin: 5%;
+}
+
+#episodes h1 {
+    text-align: center;
+}
+
+#episodes .container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: auto auto;
+    grid-gap: 3vw 3vh; 
+    text-align: center;
+}
+
+#episodes .card {
+    background-color: #c7edf5;
+    border-radius: 5px; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
